@@ -1,0 +1,354 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Viajes El Peregrino</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!--Bootstrap Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    
+</head>
+<body>
+    <!--Nav-->
+    <ul class="nav justify-content-center fixed-top" id="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#hero">Descúbrenos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tuviaje">Elije tu viaje</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#paises">Países</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#ofrecemos">Te ofrecemos</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#masinfo">Más información</a>
+        </li>
+      </ul>
+
+    <!--Hero section-->
+    <section id="hero" class="hero-image" >
+        <duv class="container">
+            <div class="content-center">
+                <h1 class="mt-5" id="letra">Aerolineas El Peregrino</h1>
+                <p>
+                    Viaje con nosotros para llegar rápido y seguro a su destino
+                </p>
+                <a href="#hola" class="btn btn-secondary mt-4" id="boton">Descúbrenos</a>
+            </div>
+        </duv>
+    </section>
+
+    <!--Parrafo con Google Maps-->
+    <div class="row" id="tuviaje">
+        <div class="col-12">
+            <h3 class="display-4 text-center title mt-4">Programa tu viaje</h3>
+            <hr>
+        </div>
+    </div>
+
+    <div class="media">
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7224.748333845042!2d-3.6877579470176887!3d40.41699166221567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4226200cbd7d51%3A0xac2bc2362cf5b4b0!2sEl%20Retiro%20Madrid!5e0!3m2!1ses!2ses!4v1582221414782!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" class="align-self-center mr-3"></iframe>
+        <div class="media-body" id="textomapa">
+            <h4 class="mt-0">¡Viaja al sitio que elijas!</h4>
+            <p>El Peregrino tiene líneas hacia cualquier lugar del mundo en el que haya un aeropuerto.</p>
+            <p class="mb-0">Siéntete libre de elegir en el mapa el lugar que más te gustaría visitar. Te ofreceremos una oferta que no podrás rechazar</p>
+        </div>
+    </div>
+
+
+    <!--Carrusel de imagenes-->
+    <div class="row" id="paises">
+        <div class="col-12">
+            <h3 class="display-4 text-center title mt-4">O elije uno de estos países</h3>
+            <hr>
+        </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/maldivas12.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" id="maldivas">
+                    <h3>Maldivas</h3>
+                    <p>Pasa unos días como el auténtico Aquaman</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/japon7.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" id="japon">
+                    <h3>Japón</h3>
+                    <p>Descubre todas las construcciones de madera</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/suiza12.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" id="suiza">
+                    <h3>Suiza</h3>
+                    <p>Disfruta de los asombrosos paisajes de la naturaleza</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--Card deck-->
+    <div class="row" id="ofrecemos">
+        <div class="col-12">
+            <h3 class="display-4 text-center title mt-4">Te ofrecemos</h3>
+            <hr>
+        </div>
+    </div>
+
+    <div class="card-deck" id="hola">
+        <div class="card" id="carta">
+            <img src="img/seguridad4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Seguro</h5>
+                <p class="card-text">Aerolineas El Peregrino nunca ha tenido ni una sola pérdida en ninguno de sus viajes.</p>
+                <p class="card-text">Nuestra experiencia de 20 años en el sector les ofrece la mejor seguridad posible.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Aerolineas El Peregrino</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/rapido12.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Rápido</h5>
+                <p class="card-text">Nuestros vuelos siempre salen a la hora acordada.</p>
+                <p class="card-text">¡Se acabó el esperar tres horas en el aeropuerto!</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Aerolineas El Peregrino</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/economico12.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Económico</h5>
+                <p class="card-text">Ofrecemos al cliente múltiples opciones económicas para que escoja la que más se ajuste a sus condiciones</p>
+                <p class="card-text">Además de tener los mejores precios del mercado</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Aerolineas El Peregrino</small>
+            </div>
+        </div>
+    </div>
+
+    <!--Acordion-->
+    <div class="row" id="masinfo">
+        <div class="col-12">
+            <h3 class="display-4 text-center title mt-4">Más información</h3>
+            <hr>
+        </div>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Reembolso
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    Todas nuestras tarifas son reembolsables dentro de un plazo de 10 días anteriores a la salida del avión. Siendo posible la devolución del dinero en su totalidad
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Equipaje
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    Todos nuestros pasajeros pueden tener la certeza de que su equipaje estará seguro y llegará junto con ellos a su destino. Aún así poseemos un
+                    fondo en el que cada pasajero está asegurado con una cantidad de dinero proporcional al tipo de vuelo que solicite. En caso de extravío se le abonaría
+                    al pasajero dicha cantidad.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Comfort
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Ofrecemos al cliente unos asientos con una comodidad y espacio admirables, nada de pasar seis horas sentado en una butaca
+                    pequeña e incómoda. Además nuestro servicio de azafatas siempre estarán disponibles para cualquier cosa que necesite el cliente.
+                    Todas las tarifas incluyen una cantidad de comida proporcional al tamaño del vuelo.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Formulario-->
+    <div class="row" id="formulario">
+        <div class="col-12">
+            <h3 class="display-4 text-center title mt-4">Contacta con nosotros</h3>
+            <hr>
+        </div>
+    </div>
+
+    <form>
+        <div class="form-group">
+            <label>Nombre</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Correo electrónico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">Tranquilo, no se lo diremos a nadie</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Repita la contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group">
+            <label>Sexo</label>
+            <select>
+                <option>Masculino</option>
+                <option>Femenino</option>
+                <option>Sin especificar</option>
+            </select>
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Declaro que he leído y acepto la política de privacidad</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+    <!--Footer-->
+    <footer class="page-footer font-small unique-color-dark" id="footer">
+
+    <div>
+      <div class="container" id="foot1">
+  
+        <!-- Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h3 class="mb-0">¿Cómo encontrarnos?</h3>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+  
+            
+  
+          </div>
+          <!-- Grid column -->
+  
+        </div>
+        <!-- Grid row-->
+  
+      </div>
+    </div>
+  
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5" id="foot2">
+  
+      <!-- Grid row -->
+      <div class="row mt-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+  
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">Dirección</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Calle La Barca nº8, Campanillas, Málaga, España</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Correo electrónico</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>juan.pavon.lopez@iescampanillas.com</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Teléfono</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>609681457</p>
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Redes sociales</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <a href="https://twitter.com/home">Síguenos en twitter</a>
+  
+        </div>
+        <!-- Grid column -->
+  
+        </div>
+        <!-- Grid row -->
+  
+        </div>
+        <!-- Footer Links -->
+  
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3" id="foot1">© 2020 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+#hero {
+    background-image: url(../img/avion32.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    background-color: #cccccc; 
+    position: relative;
+    /*height: 50vh;*/
+    padding: 5%;
+}
+
+#footer{
+    background-color: #AF9EFC;
+    margin-top: 2%;
+    border-radius: 30px;
+}
+
+body{
+    padding: 4%;
+}
+
+#nav{
+    background-color: lightcyan;
+    padding: 1%;
+}
+
+#boton{
+    opacity: 0;
+}
+
+#textomapa{
+    text-align: center;
+    padding-top: 10%;
+}
+
+#japon{
+    color: black;
+}
+
+#maldivas{
+    color: black;
+}
+
+#suiza{
+    color: black;
+}
